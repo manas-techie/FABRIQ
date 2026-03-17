@@ -8,6 +8,7 @@ import CardContent from "./Cart/CardContent";
 import Footer from "./Common/Footer";
 import Hero from "./Layout/Hero";
 import GenderCollectionSection from "./Products/GenderCollectionSection";
+import NewArrival from "./Products/NewArrival";
 
 export {
     Header,
@@ -19,7 +20,6 @@ export {
     CardContent,
     Footer,
     Hero,
-    GenderCollectionSection
-
-
+    GenderCollectionSection,
+    NewArrival
 }

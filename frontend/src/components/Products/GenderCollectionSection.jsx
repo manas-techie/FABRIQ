@@ -1,7 +1,7 @@
 import React from "react";
 import menscollection from "../../assets/mens-collection.webp";
 import womencollection from "../../assets/womens-collection.webp";
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function GenderCollectionSection() {
   return (

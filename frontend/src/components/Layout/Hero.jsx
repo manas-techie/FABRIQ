@@ -21,7 +21,10 @@ function Hero() {
             shop for your favorite brands, and express your unique style with
             Fabriq.
           </p>
-          <Link to="#" className="bg-white text-gray-800 hover:bg-gray-200 font-bold py-2 px-4 rounded">
+          <Link
+            to="#"
+            className="bg-white text-gray-800 hover:bg-gray-200 font-bold py-2 px-4 rounded"
+          >
             Shop Now
           </Link>
         </div>

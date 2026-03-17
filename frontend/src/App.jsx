@@ -1,18 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import UserLayout from "./components/Layout/UserLayout";
+import { UserLayout } from "./components";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<UserLayout />}>
-          {/* Userlayout */}
-        </Route>
-        <Route>{/* Admin Layout */}</Route>
-      </Routes>
-    </BrowserRouter>
-  );
+  return <UserLayout />;
 }
 
 export default App;

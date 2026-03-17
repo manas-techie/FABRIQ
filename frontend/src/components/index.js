@@ -6,7 +6,8 @@ import SearchBar from "./Common/SearchBar";
 import CardDrawer from "./Layout/CardDrawer";
 import CardContent from "./Cart/CardContent";
 import Footer from "./Common/Footer";
-
+import Hero from "./Layout/Hero";
+import GenderCollectionSection from "./Products/GenderCollectionSection";
 
 export {
     Header,
@@ -16,6 +17,9 @@ export {
     SearchBar,
     CardDrawer,
     CardContent,
-    Footer
+    Footer,
+    Hero,
+    GenderCollectionSection
+
 
 }

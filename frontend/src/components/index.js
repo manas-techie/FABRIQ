@@ -5,6 +5,7 @@ import UserLayout from "./Layout/UserLayout";
 import SearchBar from "./Common/SearchBar";
 import CardDrawer from "./Layout/CardDrawer";
 import CardContent from "./Cart/CardContent";
+import Footer from "./Common/Footer";
 
 
 export {
@@ -14,6 +15,7 @@ export {
     UserLayout,
     SearchBar,
     CardDrawer,
-    CardContent
-    
+    CardContent,
+    Footer
+
 }

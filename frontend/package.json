@@ -1,5 +1,7 @@
 {
-  "name": "frontend",
+  "name": "Fabriq",
+  "description": "Fabriq - Ecommerce Website Frontend",
+  "author": "Manas Sidh",
   "private": true,
   "version": "0.0.0",
   "type": "module",

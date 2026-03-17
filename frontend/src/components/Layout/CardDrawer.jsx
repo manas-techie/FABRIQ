@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
+import { CardContent } from "../index";
 
 function CardDrawer({ isOpen, toggleDrawer }) {
   return (
@@ -17,6 +18,7 @@ function CardDrawer({ isOpen, toggleDrawer }) {
       <div className="flex-grow p-4 overflow-y-auto ">
         <h2 className="text-xl font-semibold mb-4">Shopping Cart</h2>
         {/* Component for card items */}
+        <CardContent />
       </div>
 
       {/* Checkout Button */}

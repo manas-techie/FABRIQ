@@ -4,6 +4,7 @@ import Topbar from "./Layout/Topbar";
 import UserLayout from "./Layout/UserLayout";
 import SearchBar from "./Common/SearchBar";
 import CardDrawer from "./Layout/CardDrawer";
+import CardContent from "./Cart/CardContent";
 
 
 export {
@@ -12,5 +13,7 @@ export {
     Topbar,
     UserLayout,
     SearchBar,
-    CardDrawer
+    CardDrawer,
+    CardContent
+    
 }
